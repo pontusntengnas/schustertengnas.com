@@ -1,0 +1,42 @@
+baseURL: http://schustertengnas.com/
+languageCode: en-us
+title: Pontus | Full Stack Developer
+theme: PaperMod
+
+menu:
+  main:
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 10
+    - identifier: archive
+      name: Blog
+      url: /blog/
+      weight: 10
+
+params:
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowPostNavLinks: true
+  ShowReadingTime: false
+  profileMode:
+    enabled: true
+    subtitle: "Flexible full-stack developer with a primary focus on .NET and web development. Based in Gothenburg, Sweden."
+    imageUrl: "/me.webp"
+    imageTitle: "Pontus Schuster Tengnäs"
+    imageWidth: 160
+    imageHeight: 160
+
+  socialIcons:
+    - name: "linkedin"
+      title: "LinkedIn"
+      url: "https://www.linkedin.com/in/pontus-schuster-tengnas"
+    - name: "github"
+      title: "GitHub"
+      url: "https://github.com/pontusntengnas"
+    - name: "stackoverflow"
+      title: "StackOverflow"
+      url: "https://stackoverflow.com/users/8639272/pontusnt"
+    - name: "appleappstore"
+      title: "Apple App Store"
+      url: "https://itunes.apple.com/se/developer/pontus-nilsson-tengnas/id1356267707"
